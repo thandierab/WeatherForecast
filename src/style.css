@@ -126,3 +126,46 @@ footer {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 900px) {
+  .weather-app {
+    padding: 15px; /* Reduced padding for smaller screens */
+  }
+
+  .weather-app-city {
+    font-size: 28px; /* Further reduced size for very small screens */
+    line-height: 36px;
+  }
+
+  .weather-app-temperature {
+    font-size: 44px; /* Further reduced size for very small screens */
+    line-height: 44px;
+  }
+
+  .weather-app-unit {
+    margin-top: 6px;
+    font-size: 14px;
+  }
+
+  .weather-app-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .weather-forecast-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .weather-forecast-temperatures {
+    text-align: center;
+    color: #f65282;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .weather-forecast-temperature {
+    padding: 0 5px;
+  }
+}
